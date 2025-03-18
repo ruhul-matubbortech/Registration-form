@@ -1,31 +1,27 @@
 
 
 .container{
-  background-color: whitesmoke;
-}
-.navbar{
+    background-color: whitesmoke;
+  }
+  .navbar{
+    
+  }
+   .nav-bar ul{
+      display: flex;
+    gap: 15px;
+    padding: 5px;
+    
+  }
+   .nav-bar ul li{
+    list-style: none;
+    cursor: pointer;
+    margin-left: 30px;
+    
+   }
   
-}
- .nav-bar ul{
-    display: flex;
-  gap: 15px;
-  padding: 5px;
+   h2{
+  color: rgb(211, 136, 45);
+  font-weight: 500;
+    margin-left: 50px;
   
-}
- .nav-bar ul li{
-  list-style: none;
-  cursor: pointer;
-  margin-left: 30px;
-  
- }
-
- h2{
-color: rgb(211, 136, 45);
-font-weight: 500;
-  margin-left: 50px;
-
- }
- body{
-  background-color: aqua;
- }
- 
+   }
